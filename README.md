@@ -1,7 +1,5 @@
 The repository includes a version of realization of algorithm 1-4 in the paper `Cyclic vertex connectivity for (4,5,6)-fullerene graphs`.
 
-> The codes' author is ZiXin Qin, whose Github account is [here](https://github.com/lr580).
-
 We suggest you run the codes with C++11, Python3.8 or higher versions. 
 
 
@@ -137,11 +135,7 @@ int calcHash(const vector<vector<int>> &e, int r)
 - `e` is adjacency table, vertexes indexed from 1 to `n`. It should be guaranteed that `e` is (4,5,6) fullerene graph and `n` < 16.
 - `r` is root vertex's index.
 
-The function convert graph `e` into BFS tree with root vertex `r`, and calculate hash of tree via the hash function:
-$$
-\sum_{u=1}^n p_1^{d_u}\times p_2^{siz_u}\bmod 998244353
-$$
-where $p_1=13331,p_2=10007$ are primes. $d_u$ is the depth of vertex u and $siz_u$ is the number of sons in BFS tree of vertex u.
+The function convert graph `e` into BFS tree with root vertex `r`, and calculate hash of tree via the hash function: $\sum_{u=1}^n p_1^{d_u}\times p_2^{siz_u}\bmod 998244353$, where $p_1=13331,p_2=10007$ are primes. $d_u$ is the depth of vertex u and $siz_u$ is the number of sons in BFS tree of vertex u.
 
 
 
@@ -183,3 +177,9 @@ int algo4(const vector<vector<int>> &e, int m)
 - `m` is the number of edges.
 
 return an bool denoting whether the cyclic vertex connectivity of graph `e` is 3.
+
+
+
+## Contact
+
+> The codes' author is ZiXin Qin, whose Github account is [here](https://github.com/lr580). If you find bugs, welcome to contact me at any time or leave an issue.
