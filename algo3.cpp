@@ -7,7 +7,7 @@
 #include <string>
 #include "inputGraph.cpp"
 using namespace std;
-
+//  An algorithm determining the cyclic vertex connectivity of a (4, 5, 6)-fullerene graph G with v(G)<16.
 // checkIsomorphic begin
 /* a quick way to check isomorphic: hash on tree
  * let r be the root vertex, convert the graph into BFS tree and calculate hash
