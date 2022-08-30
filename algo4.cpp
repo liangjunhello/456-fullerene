@@ -11,6 +11,8 @@ struct node
     node() {}
     node(int a, int b) : i(a), d(b) {}
 };
+
+// An algorithm determining whether the cyclic vertex connectivity of a (4, 5, 6)-fullerene graph $G$ is 3.
 int algo4(const vector<vector<int>> &e, int m)
 {
     int n = e.size() - 1;
