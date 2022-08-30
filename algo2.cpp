@@ -3,6 +3,7 @@
 #include <vector>
 #include "algo4.cpp"
 using namespace std;
+// An algorithm determining the cyclic edge connectivity of  (4, 5, 6)-fullerene graphs.
 int algo2(const vector<vector<int>> &e, int g, int m)
 {
     if (g == 5)
