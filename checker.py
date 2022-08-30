@@ -1,4 +1,5 @@
 #(4,5,6) fullerene graph is a planarity graph of 3-regular, 3-edge-connected, with cycles of 4 or 5 or 6 length only.
+// dertemining  whether a graph G is a (4,5,6) fullerene graph.
 import networkx as nx
 
 g = nx.Graph()
